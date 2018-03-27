@@ -1,5 +1,5 @@
 # Rounded-Bordered-Button-Menus
-A bordered button that changes color upon touch. And a scrolling stack view and collection view menus made from these buttons.
+A custom button and two scrollable menus using the custom button. The button changes color upon touch. The UIStackView and UICollectionView menus made from these buttons. Swift 4.
 
 The collectionView is on the left, the bordered button is in the middle, and the stack view is on the right.
 
