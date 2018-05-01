@@ -20,6 +20,8 @@ private extension UICollectionViewCell {
 
 class MenuCollection: UICollectionView {
     
+    weak var menuCollectionDelegate: MenuCollectionDelegate?
+    
     let menuItems: [MenuItem]
     
     private let cellItemHeight : CGFloat = 40
@@ -27,12 +29,10 @@ class MenuCollection: UICollectionView {
     private let cellMinInteritemSpacing : CGFloat = 20
     private let cellFont = UIFont.boldSystemFont(ofSize: 16)
     
-    weak var menuCollectionDelegate: MenuCollectionDelegate?
-    
     init(menuItems: [MenuItem]) {
         self.menuItems = menuItems
         
-        let layout = UICollectionViewFlowLayout()
+        let layout = LeftAlignedCollectionViewFlowLayout()
         super.init(frame: CGRect.zero, collectionViewLayout: layout)
         
         register(MenuCollectionViewCell.self, forCellWithReuseIdentifier: MenuCollectionViewCell.reuseId())

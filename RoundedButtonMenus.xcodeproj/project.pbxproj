@@ -21,6 +21,7 @@
 		852D471320689A920090EBED /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D470F20689A920090EBED /* UIView+Constraints.swift */; };
 		852D471620689C0D0090EBED /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D471520689C0D0090EBED /* MenuCollectionViewCell.swift */; };
 		852D471A20689C8B0090EBED /* MenuCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D471920689C8B0090EBED /* MenuCollection.swift */; };
+		DDA995592098B77B00B9F649 /* MenuCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA995582098B77B00B9F649 /* MenuCollectionLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		852D470F20689A920090EBED /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		852D471520689C0D0090EBED /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		852D471920689C8B0090EBED /* MenuCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollection.swift; sourceTree = "<group>"; };
+		DDA995582098B77B00B9F649 /* MenuCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				852D471920689C8B0090EBED /* MenuCollection.swift */,
 				852D471520689C0D0090EBED /* MenuCollectionViewCell.swift */,
+				DDA995582098B77B00B9F649 /* MenuCollectionLayout.swift */,
 			);
 			path = MenuCollection;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA995592098B77B00B9F649 /* MenuCollectionLayout.swift in Sources */,
 				851F5AEB2069CED800446089 /* MenuStackView.swift in Sources */,
 				852D471020689A920090EBED /* Constrainable.swift in Sources */,
 				852D471620689C0D0090EBED /* MenuCollectionViewCell.swift in Sources */,

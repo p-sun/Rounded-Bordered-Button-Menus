@@ -37,7 +37,7 @@ extension ViewController: MenuCollectionDelegate {
         collectionView = MenuCollection(menuItems: menuItems)
         view.addSubview(collectionView)
         collectionView.menuCollectionDelegate = self
-        collectionView.constrainWidth(250)
+        collectionView.constrainWidth(350)
         collectionView.constrainEdgesVertically(to: view)
         collectionView.constrainTop(to: view)
         collectionView.constrainLeft(to: view)
